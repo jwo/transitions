@@ -1,3 +1,11 @@
+=== Fork Existence Explanation
+
+Upstream implements a check on that executes the following code. Does not work well when migrating from scratch. [Issue #62](https://github.com/troessner/transitions/issues/62)
+
+```
+machine.klass.new.respond_to?(method_name)
+```
+
 === Travis Build Status 
 
 {<img src="https://secure.travis-ci.org/troessner/transitions.png?branch=master"/>}[http://travis-ci.org/troessner/transitions]
